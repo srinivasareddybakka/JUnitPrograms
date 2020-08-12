@@ -30,7 +30,7 @@ public class ProfileTest {
 
     @Test
     public void test2() {
-        Profile profile = new Profile("Bull Hockey, Inc");
+        Profile profile = new Profile("Bull Hockey, Incorp");
         Question question = new BooleanQuestion(1, "Got bonues?");
         Answer profileAnswer = new Answer(Bool.TRUE, question);
         profile.add(profileAnswer);
