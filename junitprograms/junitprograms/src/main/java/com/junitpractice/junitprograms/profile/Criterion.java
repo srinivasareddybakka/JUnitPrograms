@@ -10,20 +10,9 @@ public class Criterion implements Scoreable {
         this.weight = weight;
     }
 
-    @Override
-    public int getScore() {
-        return score;
-    }
+    public Answer getAnswer() { return answer; }
+    public Weight getWeight() { return weight; }
 
-    public Weight getWeight() {
-        return weight;
-    }
-
-    public Answer getAnswer() {
-        return answer;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
-    }
+    public void setScore(int score) { this.score = score; }
+    public int getScore() { return score; }
 }

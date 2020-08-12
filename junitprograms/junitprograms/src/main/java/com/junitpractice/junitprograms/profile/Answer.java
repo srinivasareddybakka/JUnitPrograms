@@ -14,7 +14,7 @@ public class Answer {
         this.i = characterstic.indexOf(matchingValue);
     }
 
-    public String questionText() {
+    public String getquestionText() {
         return question.getText();
     }
 
