@@ -31,7 +31,7 @@ public class Profile {
             boolean match = criterion.getWeight() == Weight.DontCare || answer.match(criterion.getAnswer());
 
             if (!match && criterion.getWeight() == Weight.MustMatch) {
-                return true;
+                kill = true;
             }
             if (match) {
                 score += criterion.getWeight().getValue();
